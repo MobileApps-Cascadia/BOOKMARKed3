@@ -21,9 +21,6 @@ public class CollegeSearch extends Activity {
 
 
 
-
-
-
     }
 
 }
