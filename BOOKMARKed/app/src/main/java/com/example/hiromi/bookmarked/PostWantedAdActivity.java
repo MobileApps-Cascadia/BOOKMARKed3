@@ -4,6 +4,8 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.EditText;
 
 
 public class PostWantedAdActivity extends ActionBarActivity {
@@ -34,5 +36,17 @@ public class PostWantedAdActivity extends ActionBarActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    // Adding postAd method to collect data from Post Wanted Ad form
+    public void postAd(View button) {
+        final EditText titleField = (EditText) findViewById(R.id.EditTextBookTitle);
+        String booktitle = titleField.getText().toString();
+
+        final EditText authorField = (EditText) findViewById(R.id.EditTextBookAuthor);
+        String bookauthor = authorField.getText().toString();
+
+        final EditText detailsField = (EditText) findViewById(R.id.EditTextBookDetails);
+        String bookdetails = detailsField.getText().toString();
     }
 }
