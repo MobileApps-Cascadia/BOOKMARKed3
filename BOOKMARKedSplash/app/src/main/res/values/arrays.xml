@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="campus_names">
+        <item>Cascadia College</item>
+        <item>UW Bothell</item>
+        <item>UW Seattle</item>
+        <item>UW Tacoma</item>
+        <item>Seattle Pacific University</item>
+        <item>Seattle University</item>
+        <item>Wazoo</item>
+        <item>Harvard</item>
+        <item>Yale</item>
+        <item>Stanford</item>
+    </string-array>
+</resources>
