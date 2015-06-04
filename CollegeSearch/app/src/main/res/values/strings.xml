@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">CollegeSearch</string>
 
-    <string name="app_name">BookMarked3</string>
+
     <string name="college_prompt">Choose a college</string>
 
     <string-array name="college_arrays">
@@ -21,7 +21,5 @@
         <item>Seattle Central College</item>
         <item>University of Puget Sound</item>
 
-        <item>Be</item>
-        <item>India</item>
     </string-array>
 </resources>
