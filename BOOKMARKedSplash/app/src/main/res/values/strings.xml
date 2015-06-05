@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BOOKMARKed</string>
+    <string-array name="campus_name">
+        <item>Cascadia College</item>
+        <item>UW Bothell</item>
+        <item>UW Seattle</item>
+    </string-array>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+</resources>
