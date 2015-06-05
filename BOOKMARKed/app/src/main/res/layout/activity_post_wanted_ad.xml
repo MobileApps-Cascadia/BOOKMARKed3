@@ -34,7 +34,7 @@
         </EditText>
 
         <EditText
-            android:id="@+id/EditBookAuthor"
+            android:id="@+id/EditTextBookAuthor"
             android:layout_height="wrap_content"
             android:hint="@string/bookauthor"
             android:inputType="textMultiLine"
@@ -55,7 +55,8 @@
             android:layout_height="wrap_content"
             android:text="@string/post_ad_button"
             android:onClick="postAd"
-            android:layout_width="fill_parent">
+            android:layout_width="fill_parent"
+            android:background="@color/light_pink">
         </Button>
 
     </LinearLayout>
