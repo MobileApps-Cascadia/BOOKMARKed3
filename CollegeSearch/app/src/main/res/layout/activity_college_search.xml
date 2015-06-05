@@ -13,7 +13,7 @@
         android:text="Please select the college"
         android:id="@+id/textView"
         android:layout_marginTop="46dp"
-        android:textColor="@color/darkblue"
+        android:textColor="@color/lightpink"
         android:textAlignment="center"
         android:textIsSelectable="false"
         android:textSize="20dp"
@@ -39,9 +39,9 @@
         android:layout_height="wrap_content"
         android:text="Submit"
         android:id="@+id/btnSubmit"
-        android:layout_alignParentBottom="true"
+        android:minHeight="20dp"
+        android:layout_below="@+id/spinner1"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="79dp"
-        android:background="@drawable/myshape"/>
+        android:layout_marginTop="119dp" />
 
 </RelativeLayout>
