@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".PostWantedAdActivity"
+    >
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/TextViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/post_ad"
+            android:textSize="10pt">
+        </TextView>
+
+        <EditText
+        android:id="@+id/EditTextBookTitle"
+        android:layout_height="wrap_content"
+        android:hint="@string/booktitle"
+        android:inputType="textMultiLine"
+        android:layout_width="fill_parent">
+        </EditText>
+
+        <EditText
+            android:id="@+id/EditTextBookAuthor"
+            android:layout_height="wrap_content"
+            android:hint="@string/bookauthor"
+            android:inputType="textMultiLine"
+            android:layout_width="fill_parent">
+        </EditText>
+
+        <EditText
+            android:id="@+id/EditTextBookDetails"
+            android:layout_height="wrap_content"
+            android:hint="@string/bookdetails"
+            android:inputType="textMultiLine"
+            android:lines="5"
+            android:layout_width="fill_parent">
+        </EditText>
+
+        <Button
+            android:id="@+id/ButtonPostAd"
+            android:layout_height="wrap_content"
+            android:text="@string/post_ad_button"
+            android:onClick="postAd"
+            android:layout_width="fill_parent"
+            android:background="@color/light_pink">
+        </Button>
+
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>
