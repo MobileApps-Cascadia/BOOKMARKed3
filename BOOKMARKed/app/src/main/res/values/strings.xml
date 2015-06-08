@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BOOKMARKed</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="post_ad">Post Textbook Wanted Ad</string>
+    <string name="booktitle">Enter textbook title...</string>
+    <string name="bookauthor">Enter textbook author...</string>
+    <string name="bookdetails">Textbook Details...</string>
+    <string name="post_ad_button">Post Textbook Wanted Ad</string>
+    <string name="action_settings">Settings</string>
+</resources>
